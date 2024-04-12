@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #d5b6d3;
+    padding: 60px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(52, 1, 1, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.container:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.birth-date{
+    display: block;
+    margin: 1px;
+    padding: 1px;
+    font-size: 1em;
+    color: #3a0927;
+}
+#birth-date{
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 2px 2px;
+    background-color: #c6dffa;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin-top: 60px;
+    padding: 10px 20px;
+    background-color: #8b0260;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e696c5;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
